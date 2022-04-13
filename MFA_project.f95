@@ -3,7 +3,7 @@ program MFA_project
 
 implicit none	
 
-!This project is created for personal requirements you may change the NrowXX which is and NcolXX which is the column number row number of our matrix.
+!This project is created for personal requirements you may change the NrowXX and NcolXX of the matrix.
 integer::NrowXX= (7+1)*19, NcolXX=(7+1)*23
 real,dimension(152,184):: matXX, avematXX
 real :: kXX=0, cumulative_sum=0,sum=0,average=0,averageXX=0
